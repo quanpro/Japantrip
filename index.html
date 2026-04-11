@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japan Trip · Quan Family · Bản deluxe tiếng Việt</title>
+<meta name="description" content="Lịch trình Nhật Bản 25/04–04/05/2026 dành cho gia đình, bản tiếng Việt đầy đủ, nhiều hình, nhiều thông tin điểm đến và liên kết tham khảo bằng tiếng Việt.">
+<style>
+:root {
+  --bg:#f5f7fb;
+  --card:#ffffff;
+  --ink:#152033;
+  --muted:#60708a;
+  --line:#dfe6f1;
+  --brand:#cc2336;
+  --brand-soft:#ffecef;
+  --brand-dark:#8f1421;
+  --accent:#0e6e8f;
+  --shadow:0 18px 50px rgba(20,32,51,.08);
+  --radius:24px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;background:
+  radial-gradient(circle at top left,#fff 0, #f7f8fc 36%, #f4f6fb 100%);
+  color:var(--ink);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+.hero{
+  position:relative; overflow:hidden;
+  padding:48px 20px 30px;
+  background:
+    linear-gradient(135deg, rgba(204,35,54,.92), rgba(143,20,33,.88)),
+    url('https://tse2.mm.bing.net/th/id/OIP.CYs6Ol2XVhOTclLrnyJ0DAHaE7?pid=Api') center/cover no-repeat;
+  color:#fff;
+}
+.hero::after{
+  content:""; position:absolute; inset:auto 0 -1px 0; height:90px;
+  background:linear-gradient(to bottom, rgba(255,255,255,0), rgba(245,247,251,1));
+}
+.hero-inner{position:relative; z-index:1; max-width:1180px; margin:0 auto}
+.hero-kicker{font-size:13px; letter-spacing:.15em; text-transform:uppercase; opacity:.9; margin-bottom:10px}
+.hero h1{margin:0; font-size:clamp(30px,5vw,58px); line-height:1.05; max-width:880px}
+.hero p{max-width:860px; color:rgba(255,255,255,.92); font-size:18px; margin:18px 0 22px}
+.hero-actions{display:flex; flex-wrap:wrap; gap:12px; margin-bottom:24px}
+.action{
+  display:inline-flex; align-items:center; gap:8px; padding:12px 18px; border-radius:999px;
+  background:rgba(255,255,255,.14); border:1px solid rgba(255,255,255,.22); color:#fff; backdrop-filter: blur(10px);
+  font-weight:700
+}
+.action.primary{background:#fff;color:var(--brand-dark)}
+.overview-grid{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:18px}
+.overview-card{
+  background:rgba(255,255,255,.12); border:1px solid rgba(255,255,255,.18); border-radius:20px; padding:16px 18px;
+  backdrop-filter: blur(10px)
+}
+.overview-card span{display:block; font-size:12px; text-transform:uppercase; letter-spacing:.12em; opacity:.85}
+.overview-card strong{display:block; margin-top:6px; font-size:17px}
+.overview-card p{margin:6px 0 0; font-size:14px; color:rgba(255,255,255,.9)}
+
+.quick-nav{
+  position:sticky; top:0; z-index:40;
+  background:rgba(245,247,251,.92); backdrop-filter: blur(10px); border-bottom:1px solid var(--line);
+}
+.quick-nav .row{max-width:1180px; margin:0 auto; display:flex; gap:10px; overflow:auto; padding:12px 20px}
+.quick-nav a{white-space:nowrap; padding:10px 14px; border-radius:999px; background:#fff; border:1px solid var(--line); font-weight:700; color:var(--muted)}
+.quick-nav a:hover{border-color:var(--brand); color:var(--brand)}
+
+.wrap{max-width:1180px; margin:0 auto; display:grid; grid-template-columns:280px minmax(0,1fr); gap:24px; padding:26px 20px 70px}
+.sidebar{position:sticky; top:74px; align-self:start}
+.side-card{
+  background:var(--card); border:1px solid var(--line); border-radius:24px; box-shadow:var(--shadow); padding:18px; margin-bottom:16px
+}
+.side-card h3{margin:0 0 10px; font-size:17px}
+.side-card p{margin:0 0 12px; color:var(--muted); font-size:14px}
+.side-card ul{margin:0; padding-left:18px; color:var(--muted); font-size:14px}
+.side-card li+li{margin-top:8px}
+.side-card .mini-btn{display:inline-flex; margin-top:12px; padding:10px 14px; border-radius:999px; background:var(--brand-soft); color:var(--brand-dark); font-weight:700}
+
+.content{min-width:0}
+.section-intro{background:var(--card); border:1px solid var(--line); box-shadow:var(--shadow); border-radius:28px; padding:24px; margin-bottom:20px}
+.section-intro h2{margin:0 0 10px; font-size:30px}
+.section-intro p{margin:0; color:var(--muted)}
+.legend{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:14px; margin-top:18px}
+.legend div{padding:16px; border-radius:20px; background:#f9fbff; border:1px solid var(--line)}
+.legend strong{display:block; margin-bottom:6px}
+
+.day-section{margin-top:20px; background:var(--card); border:1px solid var(--line); border-radius:32px; box-shadow:var(--shadow); overflow:hidden}
+.day-header{padding:28px 28px 18px; display:grid; grid-template-columns:minmax(0,1fr) auto; gap:20px; align-items:start}
+.day-date{display:inline-block; padding:8px 12px; background:var(--brand-soft); color:var(--brand-dark); font-weight:800; border-radius:999px; margin-bottom:10px}
+.day-header h2{margin:0 0 12px; font-size:clamp(24px,3vw,34px); line-height:1.15}
+.day-summary{margin:0; color:var(--muted); max-width:800px}
+.region{display:inline-flex; padding:8px 12px; background:#eef7fb; color:var(--accent); font-weight:800; border-radius:999px}
+.chips{display:flex; flex-wrap:wrap; gap:8px; margin-top:12px; justify-content:flex-end}
+.chip{display:inline-flex; padding:8px 12px; background:#f6f8fc; border:1px solid var(--line); border-radius:999px; color:var(--muted); font-weight:700; font-size:13px}
+.gallery{display:grid; grid-template-columns:1.15fr .85fr; gap:12px; padding:0 28px 20px}
+.gallery-photo{min-height:260px; border-radius:24px; background-position:center; background-size:cover}
+.day-panels{padding:0 28px 28px}
+.panel+ .panel{margin-top:18px}
+.panel h3{margin:0 0 14px; font-size:21px}
+
+.timeline{display:grid; gap:12px}
+.t-item{display:grid; grid-template-columns:140px minmax(0,1fr); gap:16px; align-items:start; padding:16px; border:1px solid var(--line); background:#fbfcff; border-radius:20px}
+.t-time{font-weight:800; color:var(--brand-dark)}
+.t-body h4{margin:0 0 6px; font-size:17px}
+.t-body p{margin:0; color:var(--muted)}
+
+.spots-grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px}
+.spot-card{border:1px solid var(--line); border-radius:24px; overflow:hidden; background:#fff}
+.spot-image{height:230px; background-size:cover; background-position:center}
+.spot-content{padding:18px}
+.spot-content h4{margin:0 0 10px; font-size:22px}
+.intro{margin:0 0 12px; color:var(--muted)}
+.mini-block{padding:12px 14px; background:#fafbfd; border:1px solid var(--line); border-radius:18px; margin-bottom:10px}
+.mini-block strong{display:block; margin-bottom:4px}
+.mini-block p{margin:0; color:var(--muted)}
+.btn-row{display:flex; flex-wrap:wrap; gap:10px; margin-top:14px}
+.btn{display:inline-flex; align-items:center; justify-content:center; padding:11px 14px; border-radius:999px; font-weight:800; border:1px solid transparent}
+.btn-map{background:var(--brand); color:#fff}
+.btn-more{background:#f3f7fb; color:var(--ink); border-color:var(--line)}
+
+.footer-note{margin-top:24px; padding:24px; background:var(--card); border:1px solid var(--line); border-radius:24px; box-shadow:var(--shadow)}
+.footer-note h3{margin-top:0}
+.footer-note p,.footer-note li{color:var(--muted)}
+.footer-note ul{padding-left:18px}
+
+@media (max-width: 980px){
+  .wrap{grid-template-columns:1fr}
+  .sidebar{position:static}
+  .overview-grid, .legend, .spots-grid, .gallery{grid-template-columns:1fr}
+  .day-header{grid-template-columns:1fr}
+  .chips{justify-content:flex-start}
+}
+@media (max-width: 640px){
+  .hero{padding-top:36px}
+  .hero p{font-size:16px}
+  .day-header,.day-panels,.gallery{padding-left:18px; padding-right:18px}
+  .t-item{grid-template-columns:1fr; gap:8px}
+  .spot-image{height:210px}
+}
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="hero-kicker">Bản deluxe tiếng Việt · dễ chia sẻ cho gia đình</div>
+      <h1>Japan Trip · Quan Family</h1>
+      <p>Một microsite lịch trình theo phong cách công ty tour riêng: có ảnh, câu chuyện điểm đến, gợi ý nên làm gì ở từng nơi, nút Google Maps và liên kết đọc thêm <strong>bằng tiếng Việt</strong> để bố mẹ xem cũng dễ hiểu.</p>
+      <div class="hero-actions">
+        <a class="action primary" href="#d26">Xem lịch từ ngày 26/04</a>
+        <a class="action" href="#tokyo-pack">Xem 3 ngày Tokyo</a>
+        <a class="action" href="#share-note">Cách cập nhật lên GitHub Pages</a>
+      </div>
+      <div class="overview-grid"><div class="overview-card"><span>Base 1</span><strong>Osaka · APA Namba Ekihigashi</strong><p>Đêm đầu thuận sân bay, gọn hành lý.</p></div><div class="overview-card"><span>Base 2</span><strong>Kyoto · Hotel Elcient</strong><p>Trung tâm logistics của toàn chặng Kansai.</p></div><div class="overview-card"><span>Base 3</span><strong>Tokyo</strong><p>Dùng đúng 3 ngày city + 1 ngày Fuji.</p></div></div>
+    </div>
+  </header>
+
+  <nav class="quick-nav">
+    <div class="row">
+      <a href="#d25">25/04</a>
+      <a href="#d26">26/04</a>
+      <a href="#d27">27/04</a>
+      <a href="#d28">28/04</a>
+      <a href="#d29">29/04</a>
+      <a href="#d30">30/04</a>
+      <a href="#d01" id="tokyo-pack">01/05</a>
+      <a href="#d02">02/05</a>
+      <a href="#d03">03/05</a>
+      <a href="#d04">04/05</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <aside class="sidebar">
+      <div class="side-card">
+        <h3>Tinh thần của lịch trình này</h3>
+        <p>Ưu tiên đúng gu chuyến đi: Kyoto sâu hơn, Tokyo vừa đủ, di chuyển gọn và hợp với nhóm 3 người có 2 người trên 50 tuổi.</p>
+        <ul>
+          <li>Ngày 26 gom Osaka gọn, tối sang Kyoto.</li>
+          <li>Ngày 27–30 dành phần đẹp nhất cho Kyoto.</li>
+          <li>Tokyo chia rõ: 1 ngày Fuji, 2 ngày city, 1 ngày bay về.</li>
+          <li>Các quán ăn được gắn đúng cụm địa lý để không đi vòng.</li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>Mẹo dùng web này cho bố mẹ</h3>
+        <ul>
+          <li>Bấm <strong>Mở Google Maps</strong> ở từng điểm để đi ngay.</li>
+          <li>Bấm <strong>Tìm hiểu… (TV)</strong> để đọc thêm bằng tiếng Việt.</li>
+          <li>Mỗi ngày chỉ cần bám theo khung <strong>Timeline</strong>; không cần nhớ quá nhiều.</li>
+        </ul>
+      </div>
+      <div class="side-card">
+        <h3>Những ngày cần kỷ luật giờ nhất</h3>
+        <ul>
+          <li><strong>26/04:</strong> Katsuoji + Osaka Castle + sang Kyoto.</li>
+          <li><strong>29/04:</strong> Tour Ine / Amanohashidate.</li>
+          <li><strong>30/04:</strong> Chỉ đi sáng, kịp shinkansen 14:01.</li>
+          <li><strong>04/05:</strong> Không phát sinh lịch trước giờ bay.</li>
+        </ul>
+        <a class="mini-btn" href="https://quanpro.github.io/Japantrip/" target="_blank" rel="noopener">Mở site GitHub hiện tại</a>
+      </div>
+    </aside>
+
+    <section class="content">
+      <div class="section-intro">
+        <h2>Phiên bản “xịn hơn” để chia sẻ cho bố mẹ</h2>
+        <p>Phiên bản này tăng độ “tour chuyên nghiệp” theo đúng yêu cầu: nhiều ảnh hơn, mô tả điểm đến sâu hơn, có phần lịch sử ngắn, mục “nên làm gì ở đây”, mẹo đi thực tế và các nút đọc thêm bằng tiếng Việt thay cho official info tiếng Anh.</p>
+        <div class="legend">
+          <div><strong>Phần Timeline</strong>Cho biết nhịp đi trong ngày theo thực tế, tránh tham quá nhiều điểm.</div>
+          <div><strong>Phần Điểm nhấn</strong>Giải thích vì sao điểm đó đáng đi, nên ưu tiên trải nghiệm nào và mẹo đỡ mệt.</div>
+          <div><strong>Phần Link tiếng Việt</strong>Để người lớn tuổi có thể đọc thêm thông tin mà không bị vướng tiếng Anh.</div>
+        </div>
+      </div>
+
+      
+    <section class="day-section" id="d25">
+      <div class="day-header">
+        <div>
+          <div class="day-date">25/04 · Thứ Bảy</div>
+          <h2>Hạ cánh Kansai, nghỉ đêm đầu tại Namba</h2>
+          <p class="day-summary">Ngày khởi hành chỉ cần di chuyển gọn từ KIX về khách sạn, ăn nhẹ, ngủ sớm để giữ sức cho ngày Osaka – Kyoto hôm sau.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Osaka</span>
+          <div class="chips"><span class="chip">Nhịp nhẹ</span><span class="chip">Ít đi bộ</span><span class="chip">Ưu tiên nghỉ sớm</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse3.mm.bing.net/th/id/OIP.PaOnH5NVdwXBWva0A-NRRQHaE7?pid=Api')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse1.mm.bing.net/th/id/OIP.-jQ3qFzxuMPKmzHYn-URCgEsDW?pid=Api')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">21:30</div>
+          <div class="t-body">
+            <h4>Đến KIX</h4>
+            <p>Làm thủ tục nhập cảnh, lấy hành lý, đổi chút tiền mặt nếu cần.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">22:15–23:15</div>
+          <div class="t-body">
+            <h4>Di chuyển về APA Namba Ekihigashi</h4>
+            <p>Đi Nankai về Namba, sau đó đi bộ ngắn về khách sạn.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">23:15 trở đi</div>
+          <div class="t-body">
+            <h4>Ăn nhẹ và nghỉ</h4>
+            <p>Không xếp lịch đi chơi đêm; chỉ mua đồ ở konbini nếu cần.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse3.mm.bing.net/th/id/OIP.PaOnH5NVdwXBWva0A-NRRQHaE7?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>APA Namba Ekihigashi</h4>
+            <p class="intro">Base đêm đầu rất hợp cho gia đình vì gần ga Namba, tiện vào từ sân bay và dễ tìm đồ ăn khuya.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Check-in nhanh, sắp gọn hành lý cho ngày mai, chuẩn bị sẵn vé/tiền lẻ cho di chuyển sáng.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đêm đầu không nên cố đi thêm lịch. Ngủ đủ sẽ giúp 4 ngày Kyoto đi đỡ mệt hơn nhiều.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=APA%20Hotel%20Namba%20Ekihigashi%20Osaka" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.traveloka.com/vi-vn/explore/destination/du-lich-osaka-acc/301314" target="_blank" rel="noopener">Đọc thêm về Osaka (TV)</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="day-section" id="d26">
+      <div class="day-header">
+        <div>
+          <div class="day-date">26/04 · Chủ Nhật</div>
+          <h2>Katsuoji → Thành Osaka → Dotonbori → sang Kyoto → tối Fushimi Inari</h2>
+          <p class="day-summary">Ngày này gom trọn Osaka theo nhịp gọn: buổi sáng cầu may ở Katsuoji, trưa đầu giờ chiều vào Thành Osaka, cuối ngày dạo Dotonbori rồi chuyển base sang Kyoto. Tối khép lại bằng Fushimi Inari khi đèn lên, đỡ đông hơn ban ngày.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Osaka → Kyoto</span>
+          <div class="chips"><span class="chip">Ngày kín</span><span class="chip">Nhiều chặng tàu</span><span class="chip">Cần đi đúng giờ</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse1.mm.bing.net/th/id/OIP.-jQ3qFzxuMPKmzHYn-URCgEsDW?pid=Api')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://commons.wikimedia.org/wiki/Special:FilePath/20100714_Kyoto_Fushimi_Inari_1715.jpg')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">07:45</div>
+          <div class="t-body">
+            <h4>Rời khách sạn</h4>
+            <p>Đi sớm để chủ động bus lên Katsuoji.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">09:00–10:30</div>
+          <div class="t-body">
+            <h4>Katsuoji</h4>
+            <p>Cầu may, chụp daruma, đi vòng quanh khuôn viên vừa phải.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">12:30–14:15</div>
+          <div class="t-body">
+            <h4>Thành Osaka</h4>
+            <p>Tham quan khuôn viên và nếu còn sức có thể vào tháp chính.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">15:30–16:00</div>
+          <div class="t-body">
+            <h4>Về khách sạn lấy đồ</h4>
+            <p>Mục tiêu là pack gọn, không ngồi nghỉ quá lâu.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">16:15–17:45</div>
+          <div class="t-body">
+            <h4>Dotonbori / Namba</h4>
+            <p>Dạo ngắn, chụp biển Glico, ăn tối sớm.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">18:00–19:30</div>
+          <div class="t-body">
+            <h4>Di chuyển sang Kyoto</h4>
+            <p>Nhận phòng Hotel Elcient Kyoto Hachijoguchi.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">20:15–21:30</div>
+          <div class="t-body">
+            <h4>Fushimi Inari buổi tối</h4>
+            <p>Chỉ cần đi đoạn cổng torii đầu tiên là đã rất đẹp.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse1.mm.bing.net/th/id/OIP.-jQ3qFzxuMPKmzHYn-URCgEsDW?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Katsuoji</h4>
+            <p class="intro">Ngôi chùa cầu may nổi tiếng phía bắc Osaka, gắn với những búp bê daruma đỏ phủ kín sườn đồi. Không khí ở đây khác hẳn Osaka náo nhiệt: yên, mát và có cảm giác như một “cổng chuyển mood” trước khi vào hành trình Kansai.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đi cổng chính, ngắm hồ và cầu nhỏ, mua omamori hoặc daruma mini nếu thích. Chụp ảnh đẹp nhất ở khu bậc thang và các góc nhìn xuống thung lũng.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đừng ở quá lâu. 60–90 phút là đẹp để vẫn giữ nhịp cho Thành Osaka và Kyoto buổi tối.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Katsuoji%20Temple%20Osaka" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.traveloka.com/vi-vn/explore/destination/katsuoji/1002565" target="_blank" rel="noopener">Tìm hiểu Katsuoji (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse1.mm.bing.net/th/id/OIP.-jQ3qFzxuMPKmzHYn-URCgEsDW?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Thành Osaka</h4>
+            <p class="intro">Một trong những biểu tượng lớn nhất của lịch sử Nhật Bản, gắn với Toyotomi Hideyoshi và giai đoạn thống nhất đất nước cuối thế kỷ 16.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Chụp ảnh từ hào nước và khu Nishinomaru. Nếu không muốn tốn sức, có thể chỉ dạo công viên mà không cần đi hết bảo tàng bên trong.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Ngày đầu chỉ cần “điểm nhấn lịch sử” chứ không nên cố nhồi thêm quá nhiều Osaka city khác.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Osaka%20Castle" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/Th%C3%A0nh_Osaka" target="_blank" rel="noopener">Tìm hiểu Thành Osaka (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse3.mm.bing.net/th/id/OIP.PaOnH5NVdwXBWva0A-NRRQHaE7?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Dotonbori</h4>
+            <p class="intro">Phần “Osaka vui vẻ” của chuyến đi: biển hiệu khổng lồ, ánh đèn phản chiếu xuống kênh đào, hàng ăn san sát và cảm giác rất điện ảnh về đêm.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Biển Glico, cầu Ebisu, đi dọc bờ kênh và ăn một bữa sớm thật gọn.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Chỉ nên xem đây là block dạo – ăn – chụp, không nên shopping dài vì còn phải sang Kyoto.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Dotonbori%20Osaka" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.traveloka.com/vi-vn/explore/destination/du-lich-osaka-acc/301314" target="_blank" rel="noopener">Đọc thêm về Osaka (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/20100714_Kyoto_Fushimi_Inari_1715.jpg')"></div>
+          <div class="spot-content">
+            <h4>Fushimi Inari buổi tối</h4>
+            <p class="intro">Ngôi đền Inari lớn nhất Nhật Bản nổi tiếng với đường hầm torii đỏ son kéo lên núi. Đi tối vừa mát hơn vừa có cảm giác linh thiêng và bớt biển người.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đi qua cổng torii đầu, chụp các lối đi đỏ son và dừng ở khu giữa đền để cảm nhận không khí thay vì cố leo lên đỉnh.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Sau ngày dài, chỉ cần đi 45–60 phút đầu là đủ đẹp và đủ sức.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Fushimi%20Inari%20Taisha" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/Fushimi_Inari-taisha" target="_blank" rel="noopener">Tìm hiểu Fushimi Inari (TV)</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="day-section" id="d27">
+      <div class="day-header">
+        <div>
+          <div class="day-date">27/04 · Thứ Hai</div>
+          <h2>Arashiyama → Sagano Romantic Train → Kinkaku-ji → Nishiki → Gion → Kodai-ji</h2>
+          <p class="day-summary">Ngày Kyoto đẹp và rất “điện ảnh”: bắt đầu bằng tre xanh Arashiyama, chen một đoạn tàu lãng mạn Sagano rồi chuyển sang vẻ lấp lánh của Kinkaku-ji. Cuối ngày là chất Kyoto cổ ở Nishiki, Gion và Kodai-ji lên đèn.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Kyoto</span>
+          <div class="chips"><span class="chip">Ngày đẹp nhất Kyoto</span><span class="chip">Nên đi sớm</span><span class="chip">Nhiều góc chụp</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo_Forest%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Kinkaku3402CBcropped.jpg')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">06:45–07:00</div>
+          <div class="t-body">
+            <h4>Rời Kyoto Station</h4>
+            <p>Đi sớm để Arashiyama còn thoáng.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">07:45–09:30</div>
+          <div class="t-body">
+            <h4>Arashiyama</h4>
+            <p>Rừng tre, Togetsukyo, dạo khu ven sông.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">10:02–10:27</div>
+          <div class="t-body">
+            <h4>Sagano Romantic Train</h4>
+            <p>Nên ưu tiên chuyến 10:02; lỡ thì 11:02 vẫn ổn.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">12:30–14:00</div>
+          <div class="t-body">
+            <h4>Kinkaku-ji</h4>
+            <p>Ngắm phản chiếu trên hồ, đi vòng sân vườn theo lối một chiều.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">15:30–17:00</div>
+          <div class="t-body">
+            <h4>Nishiki Market</h4>
+            <p>Ăn sớm, nếm từng món nhỏ thay vì ngồi một bữa nặng.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">17:15–18:15</div>
+          <div class="t-body">
+            <h4>Gion</h4>
+            <p>Dạo phố cổ và các ngõ nhỏ quanh Hanamikoji.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">18:30–20:00</div>
+          <div class="t-body">
+            <h4>Kodai-ji</h4>
+            <p>Chốt ngày bằng khu vườn, đèn tối và không khí rất Kyoto.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo_Forest%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg')"></div>
+          <div class="spot-content">
+            <h4>Arashiyama &amp; rừng tre Sagano</h4>
+            <p class="intro">Arashiyama là phần Kyoto chan hòa thiên nhiên nhất trong lịch trình của bạn. Sáng sớm ở đây có thứ ánh sáng xanh rất đặc trưng và tiếng gió luồn qua rừng tre khiến khung cảnh mềm hơn hẳn so với ban ngày đông khách.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đi rừng tre trước, sau đó vòng ra cầu Togetsukyo và bờ sông Katsura. Nếu còn thời gian có thể ghé Tenryu-ji từ ngoài vào.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đây là điểm nên “đi thật sớm – rời trước khi đông”, đừng ăn quá nhiều thời gian ở các quán lưu niệm.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Arashiyama%20Bamboo%20Grove%20Kyoto" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/Arashiyama" target="_blank" rel="noopener">Tìm hiểu Arashiyama (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Bamboo_Forest%2C_Arashiyama%2C_Kyoto%2C_Japan.jpg')"></div>
+          <div class="spot-content">
+            <h4>Sagano Romantic Train</h4>
+            <p class="intro">Chuyến tàu ngắn nhưng rất có chất du lịch cổ điển: cửa sổ rộng, chạy men theo khe núi và dòng sông, đặc biệt đẹp khi trời nắng nhẹ.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Ngồi phía sổ, chuẩn bị máy ảnh/điện thoại trước vì đoạn đẹp trôi khá nhanh.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Hãy xem đây là một trải nghiệm thư giãn hơn là phương tiện di chuyển. Không cần chen chúc chụp quá nhiều.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Torokko%20Saga%20Station%20Kyoto" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/activity/75037-shinkibus-popularplaces-kyoto/" target="_blank" rel="noopener">Xem Sagano bằng tiếng Việt</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Kinkaku3402CBcropped.jpg')"></div>
+          <div class="spot-content">
+            <h4>Kinkaku-ji</h4>
+            <p class="intro">Kim Các Tự là định nghĩa của vẻ đẹp “chỉ cần đứng ngắm”. Hai tầng trên dát vàng phản chiếu trên mặt hồ khiến toàn bộ khuôn viên có cảm giác rất tĩnh và rất sang.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Dừng lâu nhất ở điểm nhìn đầu tiên để chụp toàn cảnh. Sau đó đi tiếp theo lối vòng một chiều, không cần vội.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Ảnh đẹp nhất thường là ảnh toàn cảnh với mặt hồ, không phải ảnh quá sát công trình.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Kinkaku-ji%20Kyoto" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/Kinkakuji" target="_blank" rel="noopener">Tìm hiểu Kinkaku-ji (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Kinkaku3402CBcropped.jpg')"></div>
+          <div class="spot-content">
+            <h4>Nishiki Market</h4>
+            <p class="intro">“Nhà bếp của Kyoto” với nhịp vừa đủ vui: hải sản xiên, đậu phụ, matcha, đồ ngọt và rất nhiều quầy nhỏ thích hợp cho bữa ăn nhiều món.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Ăn theo kiểu chia nhau nếm thử: một vài món nóng, một món tráng miệng matcha và một món mua mang đi.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đây là điểm ăn sớm đẹp nhất, đừng để quá muộn vì nhiều quầy đóng sớm hơn nhà hàng tối.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Nishiki%20Market%20Kyoto" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/activity/108981-walking-tour-of-eastern-kyoto-fushimi-inari-shrine-kiyomizu-gion/" target="_blank" rel="noopener">Đọc thêm về khu phố cổ Kyoto (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-_06.jpg')"></div>
+          <div class="spot-content">
+            <h4>Gion &amp; Kodai-ji</h4>
+            <p class="intro">Nếu Arashiyama là Kyoto của thiên nhiên, Gion và Kodai-ji là Kyoto của ký ức: phố gỗ, đèn vàng, ngõ nhỏ và nhịp đi bộ chậm. Đây là đoạn buổi tối đẹp nhất toàn hành trình Kyoto.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đi Hanamikoji, rẽ vài ngõ nhỏ, sau đó ghé Kodai-ji để cảm nhận khu vườn và ánh sáng buổi tối.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Không cần chạy quá nhiều điểm. Cứ đi chậm và ngắm mặt phố là đã rất đáng.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Gion%20Kyoto" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/activity/108981-walking-tour-of-eastern-kyoto-fushimi-inari-shrine-kiyomizu-gion/" target="_blank" rel="noopener">Tìm hiểu Gion – Kyoto Đông (TV)</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="day-section" id="d28">
+      <div class="day-header">
+        <div>
+          <div class="day-date">28/04 · Thứ Ba</div>
+          <h2>Nara Park → Todai-ji → Uji → Byodoin</h2>
+          <p class="day-summary">Ngày này là nhịp nhẹ nhưng sâu: buổi sáng cho Nara cổ kính với hươu và Đại Phật điện, buổi chiều chuyển sang Uji thanh nhã với matcha và Byodoin. Bỏ Ginkaku-ji là quyết định đúng để ngày đi đẹp hơn hẳn.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Nara &amp; Uji</span>
+          <div class="chips"><span class="chip">Ngày cân bằng</span><span class="chip">Ít áp lực giờ</span><span class="chip">Hợp người lớn tuổi</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Todaiji18s3200.jpg')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Byodoin_Phoenix_Hall_Uji_2009.jpg')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">08:00</div>
+          <div class="t-body">
+            <h4>Rời Kyoto</h4>
+            <p>Đi thẳng xuống Nara bằng JR/Kintetsu.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">09:00–11:15</div>
+          <div class="t-body">
+            <h4>Nara Park</h4>
+            <p>Dạo khu hươu, chụp ảnh và đi bộ với nhịp thư thả.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">11:15–12:15</div>
+          <div class="t-body">
+            <h4>Todai-ji</h4>
+            <p>Vào Đại Phật điện, nghỉ chân một chút trong khuôn viên.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">12:30–13:15</div>
+          <div class="t-body">
+            <h4>Ăn trưa tại Nara</h4>
+            <p>Ưu tiên quán ngồi được lâu, không cần vội.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">14:30–16:45</div>
+          <div class="t-body">
+            <h4>Uji → Byodoin</h4>
+            <p>Uống matcha, đi Omotesando rồi vào Byodoin.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">17:00 trở đi</div>
+          <div class="t-body">
+            <h4>Về Kyoto</h4>
+            <p>Tối nghỉ sớm để dành sức cho tour biển ngày mai.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Todaiji18s3200.jpg')"></div>
+          <div class="spot-content">
+            <h4>Nara Park</h4>
+            <p class="intro">Nara Park không chỉ là nơi có hươu. Đó là một vùng đệm rất đẹp giữa thành phố và quần thể di sản, nơi bạn có thể cảm nhận nhịp đi bộ rất hiền của cố đô cũ.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Mua bánh hươu vừa phải, chụp hình ở bãi cỏ rộng và giữ khoảng cách khi đàn hươu quá hăng.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Hãy đi chậm; Nara đẹp ở cảm giác thong thả hơn là chạy đủ điểm.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Nara%20Park" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/activity/148028-kinkakuji-arashiyama-nara-park-fushimi-inari-taisha-day-tour/" target="_blank" rel="noopener">Xem Nara Park bằng tiếng Việt</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Todaiji18s3200.jpg')"></div>
+          <div class="spot-content">
+            <h4>Todai-ji</h4>
+            <p class="intro">Chùa Tōdai-ji là điểm “nặng ký” nhất về lịch sử trong toàn hành trình Kansai: Đại Phật điện bằng gỗ đồ sộ, cảm giác choáng ngợp ngay từ khi bước qua cổng.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Dành thời gian đứng ngắm chính điện từ ngoài trước khi vào trong. Bên trong, chỉ cần chậm lại vài phút trước tượng Đại Phật là đã đủ cảm nhận.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đây là nơi rất hợp để bố mẹ nghỉ chân và ngắm lâu hơn thay vì chụp quá nhiều ảnh.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Todai-ji%20Nara" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/Ch%C3%B9a_T%C5%8Ddai" target="_blank" rel="noopener">Tìm hiểu Todai-ji (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Byodoin_Phoenix_Hall_Uji_2009.jpg')"></div>
+          <div class="spot-content">
+            <h4>Uji</h4>
+            <p class="intro">Uji cho cảm giác dịu và tinh tế hơn Kyoto trung tâm: phố nhỏ, quán trà, nhịp sống chậm và hương vị matcha gần như hiện diện ở khắp nơi.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đi dọc Omotesando, thử đồ ngọt/matcha và dành thời gian ngồi uống thay vì chỉ mua mang đi.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Uji là nửa ngày “hạ nhịp” lý tưởng, rất hợp sau buổi sáng Nara.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Uji%20Kyoto" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/Uji,_Kyoto" target="_blank" rel="noopener">Tìm hiểu Uji (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Byodoin_Phoenix_Hall_Uji_2009.jpg')"></div>
+          <div class="spot-content">
+            <h4>Byodoin</h4>
+            <p class="intro">Một trong những hình ảnh thanh nhã nhất của Kyoto – Uji: Phượng Hoàng đường soi trên mặt nước, đẹp kiểu cân đối và yên tĩnh. Đây là điểm chốt ngày rất có chiều sâu.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đứng ở mặt hồ chính để ngắm toàn bộ Phượng Hoàng đường. Nếu còn giờ, ghé museum nhỏ bên trong.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đừng đến quá muộn. Byodoin đẹp nhất khi bạn còn thời gian ngắm tĩnh một chút.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Byodoin%20Uji" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/By%C5%8Dd%C5%8D-in" target="_blank" rel="noopener">Tìm hiểu Byodoin (TV)</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="day-section" id="d29">
+      <div class="day-header">
+        <div>
+          <div class="day-date">29/04 · Thứ Tư</div>
+          <h2>Tour biển Kyoto: Amanohashidate &amp; Ine no Funaya</h2>
+          <p class="day-summary">Ngày này nên đi tour trọn gói vì quãng đường xa. Phần thưởng là hai sắc thái rất khác: Amanohashidate hùng vĩ và Ine yên như tranh thủy mặc.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Bắc Kyoto</span>
+          <div class="chips"><span class="chip">Ngày đi xa</span><span class="chip">Đi tour trọn ngày</span><span class="chip">Ít đổi tàu tự túc</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse1.mm.bing.net/th/id/OIP.-n4S92jHPPPZfLdp4CzvnQHaEK?pid=Api')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse3.mm.bing.net/th/id/OIP.PaOnH5NVdwXBWva0A-NRRQHaE7?pid=Api')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">07:00–08:00</div>
+          <div class="t-body">
+            <h4>Ra điểm hẹn tour</h4>
+            <p>Ưu tiên có mặt sớm hơn 10–15 phút.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">10:00–11:30</div>
+          <div class="t-body">
+            <h4>Amanohashidate</h4>
+            <p>Lên điểm nhìn, ngắm dải cát và hàng thông.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">12:00–13:00</div>
+          <div class="t-body">
+            <h4>Ăn trưa</h4>
+            <p>Nếu tour có set lunch thì cứ dùng gọn, đừng kéo dài.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">13:30–15:30</div>
+          <div class="t-body">
+            <h4>Ine no Funaya</h4>
+            <p>Ngắm làng nhà thuyền, nếu có cruise thì rất nên đi.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">18:00–19:30</div>
+          <div class="t-body">
+            <h4>Về Kyoto</h4>
+            <p>Ăn tối gần ga và nghỉ sớm.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse1.mm.bing.net/th/id/OIP.-n4S92jHPPPZfLdp4CzvnQHaEK?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Amanohashidate</h4>
+            <p class="intro">Một trong “Tam cảnh Nhật Bản”, Amanohashidate nổi tiếng với dải cát dài phủ thông nằm ngang qua mặt nước, trông như chiếc cầu vươn lên trời.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Ưu tiên lên điểm nhìn cao thay vì chỉ đi dưới chân. Nếu thời gian ít, ngắm toàn cảnh luôn đáng giá hơn đi bộ quá dài.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Ngày này nên tiết kiệm sức để giữ năng lượng cho Ine buổi chiều.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Amanohashidate%20View%20Land" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.kkday.com/vi/destination/jp-amanohashidate" target="_blank" rel="noopener">Tìm hiểu Amanohashidate (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse3.mm.bing.net/th/id/OIP.PaOnH5NVdwXBWva0A-NRRQHaE7?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Ine no Funaya</h4>
+            <p class="intro">Ine là một làng chài hiếm có với những ngôi nhà thuyền nằm sát mép nước. Tầng dưới là kho/thuyền, tầng trên mới là không gian sống – rất khác với mọi hình dung thường thấy về làng biển Nhật.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Nếu tour có đi thuyền trên vịnh, nên chọn. Từ mặt nước nhìn vào dãy funaya là khoảnh khắc đắt giá nhất của cả ngày.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đây là điểm để ngắm và cảm chứ không phải để chạy. Hãy đi chậm, chụp ít nhưng chọn góc kỹ.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Ine%20Funaya%20Kyoto" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.traveloka.com/vi-vn/activities/japan/product/including-attraction-tickets-amanohashidate-ine-funaya-day-tour-depart-from-osakakyoto-3080752447741" target="_blank" rel="noopener">Tìm hiểu Ine bằng tiếng Việt</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="day-section" id="d30">
+      <div class="day-header">
+        <div>
+          <div class="day-date">30/04 · Thứ Năm</div>
+          <h2>Kiyomizu-dera sáng sớm → Sannenzaka/Ninenzaka → Yasaka/Gion → shinkansen 14:01</h2>
+          <p class="day-summary">Đây là buổi sáng Kyoto cuối cùng nên chỉ giữ phần đẹp nhất: Kiyomizu và dốc phố cổ. Không tham thêm. Mục tiêu là vừa tận hưởng được Kyoto cổ vừa ra ga ung dung để lên shinkansen 14:01.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Kyoto → Tokyo</span>
+          <div class="chips"><span class="chip">Buổi sáng ngắn</span><span class="chip">Ưu tiên đúng giờ</span><span class="chip">Không nên phát sinh</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-_06.jpg')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://commons.wikimedia.org/wiki/Special:FilePath/20100714_Kyoto_Fushimi_Inari_1715.jpg')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">06:20–06:30</div>
+          <div class="t-body">
+            <h4>Rời khách sạn</h4>
+            <p>Có thể đi taxi để tiết kiệm sức và thời gian.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">07:00–08:15</div>
+          <div class="t-body">
+            <h4>Kiyomizu-dera</h4>
+            <p>Đi khi còn thưa khách để ngắm sân gỗ và toàn cảnh Kyoto.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">08:15–09:15</div>
+          <div class="t-body">
+            <h4>Sannenzaka – Ninenzaka</h4>
+            <p>Dạo phố cổ, chụp ảnh mặt nhà gỗ và các lối dốc.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">09:15–09:45</div>
+          <div class="t-body">
+            <h4>Yasaka Shrine / rìa Gion</h4>
+            <p>Chỉ ghé ngắn, không kéo dài shopping.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">10:15–11:00</div>
+          <div class="t-body">
+            <h4>Về khách sạn lấy hành lý</h4>
+            <p>Check-out gọn, không nán lại.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">11:15–12:00</div>
+          <div class="t-body">
+            <h4>Ăn trưa sớm ở Kyoto Station</h4>
+            <p>Chọn bữa đơn giản, dễ ăn.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">12:20–12:30</div>
+          <div class="t-body">
+            <h4>Có mặt tại ga</h4>
+            <p>Ra sân chờ sớm để lên tàu thoải mái.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">14:01</div>
+          <div class="t-body">
+            <h4>Shinkansen Kyoto → Tokyo</h4>
+            <p>Ghế A cửa sổ là đẹp nhất để ngắm Fuji khi trời quang.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-_06.jpg')"></div>
+          <div class="spot-content">
+            <h4>Kiyomizu-dera</h4>
+            <p class="intro">Một trong những ngôi chùa nổi tiếng nhất Kyoto, gắn với sân gỗ nổi tiếng nhìn xuống triền núi và thành phố. Điểm hay nhất của Kiyomizu là cảm giác “Kyoto xưa” hiện ra rất rõ ngay từ lúc bước qua cổng.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đứng ở sân gỗ, nhìn ra toàn cảnh; nếu còn yên, ghé Otowa-no-taki ở dưới. Ở đây không cần đi nhanh.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đi càng sớm càng tốt. Đây là một trong số ít điểm đông mà sáng sớm vẫn giữ được cảm xúc rất riêng.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Kiyomizu-dera%20Kyoto" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/Kiyomizu-dera" target="_blank" rel="noopener">Tìm hiểu Kiyomizu-dera (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://commons.wikimedia.org/wiki/Special:FilePath/Kiyomizu-dera%2C_Kyoto%2C_November_2016_-_06.jpg')"></div>
+          <div class="spot-content">
+            <h4>Sannenzaka – Ninenzaka – Yasaka</h4>
+            <p class="intro">Nếu phải chọn một đoạn phố để nhớ về Kyoto, nhiều người sẽ chọn chính khu dốc đá này. Nhà gỗ, mái ngói, biển hiệu nhỏ và những khoảng ngoặt rất điện ảnh.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đi chậm, chụp góc phố rộng chứ đừng chỉ chụp cận. Ghé Yasaka Shrine như một điểm khép vòng đẹp trước khi rời Kyoto.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Buổi sáng là lúc khu này còn giữ trọn vẻ cổ kính nhất.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Sannenzaka%20Kyoto" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/activity/87775-kinkaku-ji-kiyomizu-dera-fushimi-inari-taisha-one-day-bus-tour-osaka/" target="_blank" rel="noopener">Đọc thêm về tuyến Kyoto Đông (TV)</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="day-section" id="d01">
+      <div class="day-header">
+        <div>
+          <div class="day-date">01/05 · Thứ Sáu</div>
+          <h2>Tour Núi Phú Sĩ / Kawaguchiko + tối Shinjuku</h2>
+          <p class="day-summary">Ngày đầu Tokyo nên giao trọn cho tour Fuji – Kawaguchiko. Khi trở về, chỉ mua sắm nhẹ ở Shinjuku rồi ăn một bữa thật ngon để kết thúc ngày dài.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Tokyo &amp; Fuji</span>
+          <div class="chips"><span class="chip">Ngày đi tour</span><span class="chip">Ngắm cảnh</span><span class="chip">Tối ăn ngon</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse2.mm.bing.net/th/id/OIP.CYs6Ol2XVhOTclLrnyJ0DAHaE7?pid=Api')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse1.mm.bing.net/th/id/OIP.-n4S92jHPPPZfLdp4CzvnQHaEK?pid=Api')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">06:45–07:15</div>
+          <div class="t-body">
+            <h4>Có mặt tại điểm hẹn tour</h4>
+            <p>Mang theo áo khoác mỏng vì khu hồ gió dễ lạnh hơn Tokyo.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">07:30–18:00</div>
+          <div class="t-body">
+            <h4>Tour Fuji / Kawaguchiko</h4>
+            <p>Đừng ép phải chụp đủ mọi góc; chọn vài điểm ngắm thật kỹ sẽ vui hơn.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">18:30–20:00</div>
+          <div class="t-body">
+            <h4>Mua sắm nhẹ ở Shinjuku</h4>
+            <p>Tập trung mall/department store quanh ga, không đi quá sâu.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">20:15–21:45</div>
+          <div class="t-body">
+            <h4>Ăn tối Rokkasen Honten</h4>
+            <p>Bữa tối “thưởng công” sau ngày tour.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse1.mm.bing.net/th/id/OIP.-n4S92jHPPPZfLdp4CzvnQHaEK?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Kawaguchiko &amp; Núi Phú Sĩ</h4>
+            <p class="intro">Kawaguchiko là nơi ngắm Fuji “dễ yêu” nhất cho người đi lần đầu: hồ rộng, đường chân trời thoáng, và núi hiện lên rất rõ khi thời tiết đẹp.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Nếu tour ghé hồ + công viên + điểm nhìn cao, hãy ưu tiên điểm nhìn cao đầu tiên; sau đó bớt chụp, dành thời gian ngắm thật sự.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Fuji đẹp hay không phụ thuộc mây. Đừng để kỳ vọng ảnh hoàn hảo làm mất niềm vui của cả ngày.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Lake%20Kawaguchi" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.traveloka.com/vi-vn/activities/japan/product/mt-fuji-kawaguchiko-lake-day-tour-by-ontabi-9-hours-2001680768019" target="_blank" rel="noopener">Tìm hiểu tour Kawaguchiko (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse2.mm.bing.net/th/id/OIP.CYs6Ol2XVhOTclLrnyJ0DAHaE7?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Rokkasen Honten</h4>
+            <p class="intro">Một lựa chọn bữa tối rất hợp cho đêm đầu Tokyo: ngồi thoải mái, ăn ngon, không phải xếp lịch di chuyển quá rối sau một ngày tour dài.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Nếu được, đặt trước hoặc đến hơi sớm. Nên giữ bữa này như bữa tối chính của ngày.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Nếu tour về muộn, có thể đổi sang ăn nhẹ hơn ở Shinjuku rồi giữ sức cho 2 ngày city.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Rokkasen%20Honten%20Shinjuku" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.traveloka.com/vi-vn/activities/find/tour-nui-phu-si" target="_blank" rel="noopener">Xem thêm về tour Núi Phú Sĩ (TV)</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="day-section" id="d02">
+      <div class="day-header">
+        <div>
+          <div class="day-date">02/05 · Thứ Bảy</div>
+          <h2>Asakusa → WAUNN → Ueno / Ameyoko → Gyukatsu Motomura Ueno</h2>
+          <p class="day-summary">Ngày này có nhịp rất “Tokyo cổ rồi Tokyo đời thường”: sáng chùa cổ Asakusa, trưa ăn gần Senso-ji, chiều mua sắm ở Ameyoko, tối chốt bằng gyukatsu gần Ueno.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Tokyo East</span>
+          <div class="chips"><span class="chip">Dễ đi bộ</span><span class="chip">Có shopping</span><span class="chip">Ăn hợp cụm</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse4.mm.bing.net/th/id/OIP.pVEhoYhJJmpIbyzUtCttUgHaFj?pid=Api')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse4.mm.bing.net/th/id/OIP.pVEhoYhJJmpIbyzUtCttUgHaFj?pid=Api')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">08:00–09:15</div>
+          <div class="t-body">
+            <h4>Senso-ji</h4>
+            <p>Đi trước khi đông để chụp Kaminarimon và sân chùa.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">09:15–10:45</div>
+          <div class="t-body">
+            <h4>Nakamise</h4>
+            <p>Mua quà lưu niệm, bánh ngọt, snack mang về.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">11:00–12:15</div>
+          <div class="t-body">
+            <h4>Ăn trưa WAUNN</h4>
+            <p>Ghép đúng cụm Asakusa để khỏi chạy vòng.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">12:45–14:00</div>
+          <div class="t-body">
+            <h4>Qua Ueno</h4>
+            <p>Đi bộ nhẹ hoặc nghỉ cà phê.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">14:00–17:00</div>
+          <div class="t-body">
+            <h4>Shopping Ameyoko</h4>
+            <p>Block mua sắm chính của ngày.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">17:30–18:45</div>
+          <div class="t-body">
+            <h4>Ăn tối Gyukatsu Motomura Ueno</h4>
+            <p>Chốt ngày gần ga để về nghỉ dễ.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse4.mm.bing.net/th/id/OIP.pVEhoYhJJmpIbyzUtCttUgHaFj?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Senso-ji &amp; Asakusa</h4>
+            <p class="intro">Asakusa giữ lại một phần linh hồn xưa của Tokyo: cổng đèn lồng đỏ, chùa cổ, mùi nhang, phố quà lưu niệm và nhịp đi bộ chậm hơn hẳn Shibuya hay Shinjuku.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Kaminarimon, trục Nakamise và chính điện Senso-ji. Nếu thích, bốc omikuji hoặc đốt nhang cầu may.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đi sớm sẽ có ảnh đẹp hơn nhiều và đỡ chen ở Nakamise.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Senso-ji" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/Ch%C3%B9a_Sens%C5%8D" target="_blank" rel="noopener">Tìm hiểu Senso-ji (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse4.mm.bing.net/th/id/OIP.pVEhoYhJJmpIbyzUtCttUgHaFj?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>WAUNN Asakusa</h4>
+            <p class="intro">Quán hợp nhịp ngày Asakusa vì gần điểm chơi, tiện nghỉ chân trước khi sang Ueno.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đi đúng khung trưa để tránh phải quay lại Asakusa lần nữa sau khi đã chuyển sang Ueno.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Ngày này nên ăn vừa phải buổi trưa để chiều còn nhiều chỗ cho đồ vặt ở Ameyoko.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=WAUNN%20Asakusa" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/activity/131553-tokyo-1-day-tour-meiji-shrine-shibuya-sensoji-templetokyo-skytree/" target="_blank" rel="noopener">Đọc thêm về Asakusa bằng tiếng Việt</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse4.mm.bing.net/th/id/OIP.pVEhoYhJJmpIbyzUtCttUgHaFj?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Ameyoko</h4>
+            <p class="intro">Một khu chợ – phố mua sắm rất thật của Tokyo: đông, vui, nhiều biển hiệu, rất nhiều thứ để mua từ snack, mỹ phẩm đến giày dép và quần áo.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đi một vòng trước để “định hình” rồi mới mua. Nên chừa chỗ vali cho Ameyoko vì rất dễ mua quá tay.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đây là block shopping chính của cả hành trình Tokyo East.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Ameyoko%20Shopping%20Street" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/activity/131553-tokyo-1-day-tour-meiji-shrine-shibuya-sensoji-templetokyo-skytree/" target="_blank" rel="noopener">Đọc thêm về Tokyo Đông (TV)</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="day-section" id="d03">
+      <div class="day-header">
+        <div>
+          <div class="day-date">03/05 · Chủ Nhật</div>
+          <h2>Meiji Jingu → Harajuku → Shibuya → Shinjuku → NikutoTamago</h2>
+          <p class="day-summary">Ngày cuối ở Tokyo chuyển hẳn sang nhịp hiện đại: sáng thanh tĩnh ở Meiji Jingu, trưa – chiều mua sắm Harajuku và Shibuya, tối khép lại ở Shinjuku.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Tokyo West</span>
+          <div class="chips"><span class="chip">Mua sắm mạnh nhất</span><span class="chip">Nhiều người</span><span class="chip">Tối đẹp</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse2.mm.bing.net/th/id/OIP.CYs6Ol2XVhOTclLrnyJ0DAHaE7?pid=Api')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse3.mm.bing.net/th/id/OIP.PaOnH5NVdwXBWva0A-NRRQHaE7?pid=Api')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">08:00–09:15</div>
+          <div class="t-body">
+            <h4>Meiji Jingu</h4>
+            <p>Đi sớm để còn khoảng lặng giữa rừng cây.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">09:30–10:15</div>
+          <div class="t-body">
+            <h4>Ra Harajuku</h4>
+            <p>Di chuyển ngắn và bắt đầu block shopping.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">10:30–12:30</div>
+          <div class="t-body">
+            <h4>Harajuku</h4>
+            <p>Takeshita Street và các nhánh nhỏ quanh đó.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">12:30–13:30</div>
+          <div class="t-body">
+            <h4>Ăn trưa nhẹ</h4>
+            <p>Giữ bụng vừa phải để chiều còn đi tiếp.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">14:00–17:30</div>
+          <div class="t-body">
+            <h4>Shibuya</h4>
+            <p>Block mua sắm lớn nhất ngày.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">18:15–19:30</div>
+          <div class="t-body">
+            <h4>Sang Shinjuku</h4>
+            <p>Mua nốt các món cuối, gom quà.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">19:45–21:00</div>
+          <div class="t-body">
+            <h4>Ăn tối NikutoTamago</h4>
+            <p>Bữa chốt ngày nhẹ hơn Rokkasen.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse2.mm.bing.net/th/id/OIP.CYs6Ol2XVhOTclLrnyJ0DAHaE7?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Meiji Jingu</h4>
+            <p class="intro">Điểm hay nhất của Meiji Jingu là cảm giác bước từ đô thị cực đông sang một khoảng rừng tĩnh chỉ trong vài phút. Đây là cách mở ngày rất đẹp trước khi vào shopping marathon.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Đi qua cổng torii lớn, vào sân chính và chậm lại vài phút ở khu thùng rượu sake trang trí.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đây là điểm “giữ nhịp” cho cả ngày. Đừng bỏ qua chỉ vì nghĩ là đền thờ nào cũng giống nhau.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Meiji%20Jingu" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/destination/p50001185-meiji-jingu-shrine/" target="_blank" rel="noopener">Tìm hiểu Meiji Jingu (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse2.mm.bing.net/th/id/OIP.CYs6Ol2XVhOTclLrnyJ0DAHaE7?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Harajuku</h4>
+            <p class="intro">Harajuku là phần trẻ nhất, màu sắc nhất của Tokyo. Không nhất thiết phải mua nhiều; chỉ cần đi bộ, ngắm cửa hàng và không khí cũng đã rất vui.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Takeshita Street, các ngõ nhỏ và vài cửa hàng lưu niệm/quần áo hợp gu.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đi buổi gần trưa là hợp nhất vì các shop bắt đầu mở đầy đủ.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Takeshita%20Street%20Harajuku" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/activity/176216-tokyo-meiji-jingu-harajuku-half-day-cultural-exploration/" target="_blank" rel="noopener">Đọc thêm Harajuku (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse3.mm.bing.net/th/id/OIP.PaOnH5NVdwXBWva0A-NRRQHaE7?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Shibuya</h4>
+            <p class="intro">Nếu Shinjuku là đô thị lớn và phức tạp, Shibuya là năng lượng trẻ của Tokyo: nhịp nhanh, bảng điện tử, mua sắm nhiều tầng và cảm giác “mình đang ở Tokyo thật rồi”.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Ngã tư Shibuya, Hachiko, shopping mall quanh ga. Dành đây làm block mua sắm dài nhất trong ngày.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Rất dễ đi lạc cảm xúc ở Shibuya. Hãy chọn 1–2 mall chính thay vì cố lướt quá nhiều nơi.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Shibuya%20Scramble%20Crossing" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.klook.com/vi/activity/131553-tokyo-1-day-tour-meiji-shrine-shibuya-sensoji-templetokyo-skytree/" target="_blank" rel="noopener">Tìm hiểu Shibuya (TV)</a>
+            </div>
+          </div>
+        </article>
+        
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse3.mm.bing.net/th/id/OIP.PaOnH5NVdwXBWva0A-NRRQHaE7?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Shinjuku &amp; NikutoTamago</h4>
+            <p class="intro">Đêm cuối nên về Shinjuku để vừa mua sắm chốt đơn vừa ăn tối dễ. Đây là nơi đóng hành trình Tokyo rất trọn vẹn: sáng xanh yên bình, tối lại ánh đèn đô thị rực rỡ.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Mua nốt quà, thuốc/mỹ phẩm hoặc đồ tiện lợi quanh ga rồi vào ăn tối.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Tối cuối không nên thêm điểm mới. Cứ đóng gọn ở Shinjuku để còn chuẩn bị bay sáng hôm sau.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=NikutoTamago%20Shinjuku" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://vi.wikipedia.org/wiki/Shinjuku" target="_blank" rel="noopener">Tìm hiểu Shinjuku (TV)</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="day-section" id="d04">
+      <div class="day-header">
+        <div>
+          <div class="day-date">04/05 · Thứ Hai</div>
+          <h2>Ra Haneda, bay về</h2>
+          <p class="day-summary">Ngày bay sáng chỉ cần ra sân bay sớm, giữ nhịp thật đơn giản. Không thêm lịch, không shopping phát sinh.</p>
+        </div>
+        <div class="day-meta">
+          <span class="region">Tokyo</span>
+          <div class="chips"><span class="chip">Ngày bay</span><span class="chip">Ra sân bay sớm</span><span class="chip">Không phát sinh lịch</span></div>
+        </div>
+      </div>
+      <div class="gallery"><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse1.mm.bing.net/th/id/OIP.-n4S92jHPPPZfLdp4CzvnQHaEK?pid=Api')"></div><div class="gallery-photo" style="background-image:linear-gradient(180deg,rgba(12,18,32,.12),rgba(12,18,32,.4)),url('https://tse4.mm.bing.net/th/id/OIP.pVEhoYhJJmpIbyzUtCttUgHaFj?pid=Api')"></div></div>
+      <div class="day-panels">
+        <div class="panel">
+          <h3>Timeline trong ngày</h3>
+          <div class="timeline">
+        <div class="t-item">
+          <div class="t-time">Trước 06:30</div>
+          <div class="t-body">
+            <h4>Rời chỗ ở Tokyo</h4>
+            <p>Căn giờ dư để không bị cuống.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">07:00–08:00</div>
+          <div class="t-body">
+            <h4>Làm thủ tục tại HND</h4>
+            <p>Mua nốt đồ miễn thuế nếu cần.</p>
+          </div>
+        </div>
+        <div class="t-item">
+          <div class="t-time">10:05</div>
+          <div class="t-body">
+            <h4>Bay Haneda → Hong Kong → Hà Nội</h4>
+            <p>Kết thúc hành trình.</p>
+          </div>
+        </div></div>
+        </div>
+        <div class="panel">
+          <h3>Điểm nhấn & gợi ý như đi tour riêng</h3>
+          <div class="spots-grid">
+        <article class="spot-card">
+          <div class="spot-image" style="background-image:linear-gradient(180deg,rgba(12,18,32,.08),rgba(12,18,32,.42)),url('https://tse1.mm.bing.net/th/id/OIP.-n4S92jHPPPZfLdp4CzvnQHaEK?pid=Api')"></div>
+          <div class="spot-content">
+            <h4>Haneda departure day</h4>
+            <p class="intro">Sáng cuối cùng của chuyến đi nên càng ít quyết định càng tốt. Tất cả mua sắm nên hoàn tất từ tối 03/05.</p>
+            <div class="mini-block">
+              <strong>Nên làm gì ở đây</strong>
+              <p>Kiểm tra hộ chiếu, vé, hành lý xách tay và đồ mua miễn thuế từ đêm trước.</p>
+            </div>
+            <div class="mini-block">
+              <strong>Mẹo đi thực tế</strong>
+              <p>Đây không phải ngày để “tranh thủ thêm một điểm”. Giữ đầu óc nhẹ sẽ về nhà vui hơn nhiều.</p>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn-map" href="https://www.google.com/maps/search/?api=1&query=Haneda%20Airport%20Terminal%203" target="_blank" rel="noopener">Mở Google Maps</a>
+              <a class="btn btn-more" href="https://www.traveloka.com/vi-vn/activities/japan/city/tokyo-20004088" target="_blank" rel="noopener">Mẹo sân bay &amp; Tokyo (TV)</a>
+            </div>
+          </div>
+        </article>
+        </div>
+        </div>
+      </div>
+    </section>
+    
+
+      <div class="footer-note" id="share-note">
+        <h3>Cập nhật file này lên GitHub Pages</h3>
+        <p>Để thay site đang chạy tại <strong>quanpro.github.io/Japantrip</strong>, chỉ cần thay file <strong>index.html</strong> trong repo rồi commit. Nếu repo đang bật GitHub Pages từ nhánh <strong>main / root</strong>, site sẽ tự cập nhật sau vài chục giây đến vài phút.</p>
+        <ul>
+          <li>Nếu muốn nhẹ hơn cho điện thoại, có thể tối ưu thêm kích thước ảnh ở vòng sau.</li>
+          <li>Nếu bạn chốt khách sạn Tokyo hoặc muốn thêm các quán khác trong list Google Maps, chỉ cần sửa đúng từng thẻ ngày tương ứng.</li>
+          <li>Có thể tạo thêm bản <strong>“rất ngắn cho bố mẹ”</strong>: mỗi ngày chỉ còn 4–5 dòng và 2 nút Maps.</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
