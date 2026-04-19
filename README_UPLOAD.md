@@ -23,3 +23,9 @@
 - Mở `index.html` bằng VS Code hoặc bất kỳ editor nào.
 - Không đổi tên thư mục `assets`.
 - Nếu thay ảnh, giữ đúng tên file hoặc sửa lại đường dẫn trong HTML.
+
+
+## Bản cập nhật checklist
+- File `index.html` hiện có thêm 3 cụm checklist chuẩn bị chuyến đi.
+- Dấu tick và ghi chú được lưu bằng `localStorage` trên thiết bị đang mở.
+- Nhớ upload cả thư mục `assets/` cùng `index.html` để ảnh chạy ổn định trên GitHub Pages.
